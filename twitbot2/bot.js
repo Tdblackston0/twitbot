@@ -5,12 +5,6 @@ var Twit = require('twit'); var config = require('./config')
 //Authintification is under config.js file.
 var T = new Twit(config);
 
-
-
-
-
-
-
 // Calls the tweetSearch
 tweetSearch();
 
